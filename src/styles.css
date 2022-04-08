@@ -1,0 +1,8 @@
+.parte3{
+    display: block;
+    float: right;
+    background-color:  rgb(207, 164, 248);
+    margin: 10px 30px;
+    padding: 5%;
+    border-radius: 8px;
+}
