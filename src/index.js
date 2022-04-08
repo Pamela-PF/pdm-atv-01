@@ -31,7 +31,8 @@ const App =()=>{
                     <p style={{textAlign: 'center'}}>{nomeMedicos.medico1}</p>
                 </div>
                 <div className="parte3">
-
+                    <img id='img' src={process.env.PUBLIC_URL + '/imagem2.jpg'}/>
+                    <p style={{textAlign: 'center'}}>{nomeMedicos.medico2}</p>
                 </div>
                 <div className="parte3">
 
