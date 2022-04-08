@@ -35,7 +35,8 @@ const App =()=>{
                     <p style={{textAlign: 'center'}}>{nomeMedicos.medico2}</p>
                 </div>
                 <div className="parte3">
-
+                    <img id='img' src ='https://images.pexels.com/photos/8949902/pexels-photo-8949902.jpeg?cs=srgb&dl=pexels-kampus-production-8949902.jpg&fm=jpg' />
+                    <p style={{textAlign: 'center'}}>{nomeMedicos.medico3}</p>
                 </div>
             </div>
         </div> 
