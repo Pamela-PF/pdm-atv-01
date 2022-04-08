@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles.css'
+import './styles.css';
+import imagem1 from './imagens/imagem1.jpg';
 
 const App =()=>{
     /*“1” usando uma função que devolve um objeto JSON.*/
@@ -26,7 +27,8 @@ const App =()=>{
             <div style ={{width: '100%', height: '75%', backgroundColor: '#EEE',
             borderRadius: 8, display: 'flex', border: 'solid lightgray', fontWeight:'bold'}}>
                 <div className="parte3">
-
+                    <img id='img' src={imagem1} />
+                    <p style={{textAlign: 'center'}}>{nomeMedicos.medico1}</p>
                 </div>
                 <div className="parte3">
 
