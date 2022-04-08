@@ -16,6 +16,9 @@ const App =()=>{
     return (
         <div style={parte1}>
             <label htmlFor='titulo' style ={{display:'block', marginBottom: 4, textAlign: 'center', fontWeight: 'bold'}}>Profissionais de saúde</label>
+            <div style ={{width: '100%', height: '75%', backgroundColor: '#EEE',
+            borderRadius: 8, display: 'flex', border: 'solid lightgray', fontWeight:'bold'}}>
+            </div>
         </div> 
     )
 }
